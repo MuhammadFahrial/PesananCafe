@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/NoMeja"
+        android:id="@+id/nomeja"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_marginStart="100dp"
@@ -21,7 +21,7 @@
         app:layout_constraintTop_toBottomOf="@+id/buttonJam" />
 
     <EditText
-        android:id="@+id/Harga"
+        android:id="@+id/kodemenu"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_marginStart="100dp"
@@ -29,10 +29,11 @@
         android:layout_marginEnd="100dp"
         android:ems="10"
         android:hint="Kode Menu"
+        android:onClick="viewData"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/NoMeja" />
+        app:layout_constraintTop_toBottomOf="@+id/nomeja" />
 
     <EditText
         android:id="@+id/editTextNumber2"
@@ -46,7 +47,7 @@
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Harga" />
+        app:layout_constraintTop_toBottomOf="@+id/kodemenu" />
 
     <Button
         android:id="@+id/buttonTgl"
@@ -113,5 +114,38 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextNumber2" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginBottom="19dp"
+        android:text="Save"
+        android:onClick="saveData"
+        app:layout_constraintBottom_toTopOf="@+id/btnDaftarMenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.008"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="21dp"
+        android:text="View"
+        app:layout_constraintBottom_toTopOf="@+id/btnDaftarMenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/btnSave"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber2"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

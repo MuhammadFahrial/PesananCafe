@@ -8,12 +8,16 @@ import android.app.Dialog;
 import android.app.TimePickerDialog;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Message;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.DatePicker;
+import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.TimePicker;
 
+import java.util.ArrayList;
 import java.util.Calendar;
 
 public class MainActivity extends AppCompatActivity {
@@ -25,19 +29,21 @@ public class MainActivity extends AppCompatActivity {
 
     // Time
     private TimePicker timePicker1;
-    private TextView time;
+    private TextView timeView;
     private Calendar calendarTime;
     private String format = "";
     private int hour, minute;
 
     // Button Daftar Menu
-    Button btnmenu;
+    Button btnmenu, btnsave, btnview;
+
 
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         // Date
         dateView = (TextView) findViewById(R.id.ViewDate);
         calendarDate = Calendar.getInstance();
@@ -48,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         showDate(year, month+1, day);
 
         // Time
-        time = (TextView) findViewById(R.id.ViewTime);
+        timeView = (TextView) findViewById(R.id.ViewTime);
         calendarTime = Calendar.getInstance();
         hour = calendarTime.get(Calendar.HOUR_OF_DAY);
         minute = calendarTime.get(Calendar.MINUTE);
@@ -110,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
         } else {
             format = "AM";
         }
-        time.setText(new StringBuilder().append(hour).append(" : ").append(min)
+        timeView.setText(new StringBuilder().append(hour).append(" : ").append(min)
                 .append(" ").append(format));
     }
 
@@ -123,4 +129,5 @@ public class MainActivity extends AppCompatActivity {
         }
         return null;
     }
+
 }
