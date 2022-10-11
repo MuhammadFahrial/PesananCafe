@@ -255,7 +255,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="14dp"
-                        android:text="15.000"
+                        android:text="25.000"
                         android:textColor="#000000"
                         android:textSize="14sp" />
                 </TableRow>
@@ -301,7 +301,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="14dp"
-                        android:text="15.000"
+                        android:text="10.000"
                         android:textColor="#000000"
                         android:textSize="14sp" />
                 </TableRow>
@@ -315,7 +315,7 @@
                         android:layout_width="61dp"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="14dp"
-                        android:text="F02"
+                        android:text="F03"
                         android:textColor="#000000"
                         android:textSize="14sp" />
 
@@ -331,7 +331,7 @@
                         android:layout_width="118dp"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="14dp"
-                        android:text="Cireng"
+                        android:text="Nasi Goreng"
                         android:textColor="#000000"
                         android:textSize="14sp" />
 
@@ -339,7 +339,7 @@
                         android:layout_width="281dp"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="14dp"
-                        android:text="Makanan ringan berupa tepung kanji goreng isi bahan dasar tempe fermentasi yang disebut oncom, disajikan dengan bumbu kacang pedas"
+                        android:text="Nasi goreng ayam yang disajikan dengan telur mata sapi disertai satai ayam"
                         android:textColor="#000000"
                         android:textSize="14sp" />
 
@@ -347,7 +347,99 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="14dp"
-                        android:text="15.000"
+                        android:text="50.000"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#22ff">
+
+                    <TextView
+                        android:layout_width="61dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="14dp"
+                        android:text="D01"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="81dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="14dp"
+                        android:text="Desert"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="118dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="14dp"
+                        android:text="Cheese Cake"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="281dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="14dp"
+                        android:text="Kue Tart 1 slice dengan bahan utama cream cheese dengan topping buah-buahan asli seperti anggur, jeruk, kiwi"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="14dp"
+                        android:text="40.000"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#22ff">
+
+                    <TextView
+                        android:layout_width="61dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="14dp"
+                        android:text="D02"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="81dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="14dp"
+                        android:text="Desert"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="118dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="14dp"
+                        android:text="Black Salad"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="281dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="14dp"
+                        android:text="Potongan buah-buah segar yang terdiri dari Pepaya, Jambu, melon, dan Manga disajikan dengan bumbu rujak kacang pedas dan gula merah"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="14dp"
+                        android:text="30.000"
                         android:textColor="#000000"
                         android:textSize="14sp" />
                 </TableRow>
